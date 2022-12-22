@@ -1,12 +1,53 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body{
+    background-color: rgb(2, 48, 71);
+}
+.title{
+    font-size: 100px;
+    color: rgb(251, 133, 0);
+}
+.counter{
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    height: 150px;
+    width: 650px;
+}
+i{
+    font-size: 80%;
+}
+.myCard{
+    color: rgb(2, 48, 71);
+    display: flex;
+    line-height: 140px;
+    justify-content: center;
+    font-size: 500%;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: rgb(255, 183, 3);
+    border: 3px solid rgb(251, 133, 0);
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+}
+p{
+    margin: 0;
+}
+.buttons{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    width: 650px;
+}
+.myBtn{
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 183, 3);
+    border: 3px solid rgb(251, 133, 0);
+    color: rgb(2, 48, 71);
+}
+input{
+    background-color: rgb(255, 183, 3);
+}
